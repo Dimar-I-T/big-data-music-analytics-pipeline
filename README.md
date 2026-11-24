@@ -1,6 +1,6 @@
 # Big Data Music Analytics Pipeline
 
-Solusi *data pipeline* *end-to-end* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform (Spotify dan Apple Music) menggunakan arsitektur Big Data 5 *layer*.
+Solusi *data pipeline* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform, seperti Spotify dan Apple Music menggunakan arsitektur Big Data 5 *layer*.
 
 ## Helicopter View Diagram
 ```mermaid
@@ -59,18 +59,14 @@ flowchart LR
     SRV -->|"REST API<br/>(Low Latency)"| UI
 ```
 
-## Arsitektur Sistem (5 Layer)
-1. **Data Source (`producer.py`):** Menarik katalog lagu asli dari API publik dan menyimulasikan aliran *event* pemutaran musik lintas platform (`spotify` dan `apple_music`) dalam format JSON terstandardisasi.
-2. **Layer 1 - Ingestion (Apache Kafka):** Menggunakan *topic* `music-play-logs` dengan **3 partisi** untuk menampung aliran data *real-time*, mendukung pemrosesan paralel, dan menyediakan fitur *log replay*.
-3. **Layer 2 - Storage (HDFS):** Terbagi menjadi dua zona penyimpanan:
-   * `/data/raw/music_logs/` — Menyimpan log mentah dalam format **JSON** sebagai arsip permanen (*source of truth*).
-   * `/data/clean/music_stats/` — Menyimpan data bersih dalam format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk mempercepat pembacaan query.
-4. **Layer 3 - Processing & Analitik (Apache Spark):**
-   * *Streaming ETL (`ingest_to_hdfs.py`):* Pembersihan data, validasi skema, penghapusan duplikat, dan perhitungan fitur retensi (`completion_rate` & `is_skipped`).
-   * *Batch Analytics (`analytics_batch.py`):* Menjalankan 4 tingkat analitik sekaligus — **Deskriptif** (peringkat lagu & komposisi genre), **Diagnostik** (korelasi fitur audio terhadap tingkat penyelesaian lagu), **Prediktif** (*Random Forest Classifier* vs *Naive Baseline*), dan **Preskriptif** (*Rule-Based Decision Engine* untuk rekomendasi promosi/playlist).
-5. **Layer 4 & 5 - Serving & Visualisasi (FastAPI & Streamlit):**
-   * *Serving Layer (`serving_api.py`):* REST API ringan di port `8000` yang menyajikan tabel hasil akhir dari `/data/serving/` tanpa membebani dashboard dengan komputasi berat.
-   * *Visualisasi (`dashboard.py`):* Dashboard interaktif di port `8501` untuk memantau tren pemutaran, analisis audio, akurasi model, dan tabel rekomendasi aksi.
+## Arsitektur Sistem
+1. **Data Source:** Skrip Python yang menarik katalog lagu dari API publik dan menyimulasikan aliran *event* pemutaran musik dalam format JSON terstandardisasi.
+2. **Layer 1 - Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*.
+3. **Layer 2 - Storage:** **HDFS** yang dibagi menjadi dua zona:
+   * `/data/raw/music_logs/` (Format JSON untuk arsip mentah/audit).
+   * `/data/clean/music_stats/` (Format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk optimasi pembacaan).
+4. **Layer 3 - Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data (ETL) serta analitik deskriptif, diagnostik, prediktif, dan preskriptif.
+5. **Layer 4 & 5 - Serving & Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**.
 
 ## Struktur Folder
 ```text
@@ -180,7 +176,7 @@ Buka browser dan akses dashboard di **`http://localhost:8501`** (serta dokumenta
 
 ## Panduan 2: Untuk yang Sudah Pernah Menjalankan (Melanjutkan / Live Demo)
 
-Jika kamu sudah pernah menjalankan langkah di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka, mengunduh ulang JAR, atau menginstal ulang library**. Data di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*.
+Jika kamu sudah pernah melakukan setup di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka atau menginstal ulang library**. Data lama di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*.
 
 ### 1. Nyalakan Kembali Kontainer Docker
 ```bash
