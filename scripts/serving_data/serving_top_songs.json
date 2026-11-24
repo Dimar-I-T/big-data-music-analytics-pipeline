@@ -1,0 +1,2982 @@
+[
+  {
+    "platform": "spotify",
+    "track_id": "trk_974485474",
+    "track_name": "Stressed Out",
+    "artist": "twenty one pilots",
+    "genre": "Alternative",
+    "total_plays": 66,
+    "total_minutes": 153.8,
+    "avg_completion_pct": 69.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_98312564",
+    "track_name": "Wari",
+    "artist": "Jalan Jalan",
+    "genre": "New Age",
+    "total_plays": 47,
+    "total_minutes": 195.8,
+    "avg_completion_pct": 61.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1591338975",
+    "track_name": "I Love You So",
+    "artist": "The Walters",
+    "genre": "Alternative",
+    "total_plays": 46,
+    "total_minutes": 65.53,
+    "avg_completion_pct": 53.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_974485474",
+    "track_name": "Stressed Out",
+    "artist": "twenty one pilots",
+    "genre": "Alternative",
+    "total_plays": 46,
+    "total_minutes": 101.85,
+    "avg_completion_pct": 65.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1209647304",
+    "track_name": "Confidently Lost",
+    "artist": "Sabrina Claudio",
+    "genre": "R&B/Soul",
+    "total_plays": 44,
+    "total_minutes": 86.36,
+    "avg_completion_pct": 56.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_278845473",
+    "track_name": "You Make Me Wanna...",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 40,
+    "total_minutes": 70.88,
+    "avg_completion_pct": 48.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440813515",
+    "track_name": "Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "genre": "Pop",
+    "total_plays": 40,
+    "total_minutes": 78.17,
+    "avg_completion_pct": 46.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1475930045",
+    "track_name": "Dance Monkey",
+    "artist": "Tones And I",
+    "genre": "Alternative",
+    "total_plays": 40,
+    "total_minutes": 72.06,
+    "avg_completion_pct": 51.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1203896605",
+    "track_name": "I Can't Get Next to You",
+    "artist": "Al Green",
+    "genre": "R&B/Soul",
+    "total_plays": 40,
+    "total_minutes": 85.6,
+    "avg_completion_pct": 55.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_309066884",
+    "track_name": "No Scrubs",
+    "artist": "TLC",
+    "genre": "R&B/Soul",
+    "total_plays": 40,
+    "total_minutes": 86.06,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1276760748",
+    "track_name": "Doo Wop (That Thing)",
+    "artist": "Lauryn Hill",
+    "genre": "R&B/Soul",
+    "total_plays": 40,
+    "total_minutes": 134.0,
+    "avg_completion_pct": 62.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1544491988",
+    "track_name": "Set Fire to the Rain",
+    "artist": "Adele",
+    "genre": "Pop",
+    "total_plays": 40,
+    "total_minutes": 85.06,
+    "avg_completion_pct": 52.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440813515",
+    "track_name": "Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "genre": "Pop",
+    "total_plays": 39,
+    "total_minutes": 102.52,
+    "avg_completion_pct": 62.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1358462132",
+    "track_name": "Jingle Bell Rock",
+    "artist": "Bobby Helms",
+    "genre": "Holiday",
+    "total_plays": 39,
+    "total_minutes": 46.92,
+    "avg_completion_pct": 55.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_252606592",
+    "track_name": "Cry Me a River",
+    "artist": "Justin Timberlake",
+    "genre": "Pop",
+    "total_plays": 39,
+    "total_minutes": 112.73,
+    "avg_completion_pct": 60.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1581702085",
+    "track_name": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "genre": "Singer/Songwriter",
+    "total_plays": 39,
+    "total_minutes": 70.87,
+    "avg_completion_pct": 61.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_590431778",
+    "track_name": "One Step Closer",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 39,
+    "total_minutes": 60.46,
+    "avg_completion_pct": 59.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1122782283",
+    "track_name": "Yellow",
+    "artist": "Coldplay",
+    "genre": "Alternative",
+    "total_plays": 38,
+    "total_minutes": 113.65,
+    "avg_completion_pct": 66.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_6789831682",
+    "track_name": "On the Level",
+    "artist": "Mac DeMarco",
+    "genre": "Alternative",
+    "total_plays": 38,
+    "total_minutes": 106.09,
+    "avg_completion_pct": 73.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_268532564",
+    "track_name": "U Got It Bad",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 38,
+    "total_minutes": 94.8,
+    "avg_completion_pct": 60.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1421243212",
+    "track_name": "YOSEMITE",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 38,
+    "total_minutes": 47.56,
+    "avg_completion_pct": 50.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1030015261",
+    "track_name": "C U Girl",
+    "artist": "Steve Lacy",
+    "genre": "R&B/Soul",
+    "total_plays": 37,
+    "total_minutes": 50.53,
+    "avg_completion_pct": 63.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440766959",
+    "track_name": "Forrest Gump",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 37,
+    "total_minutes": 69.4,
+    "avg_completion_pct": 57.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440745246",
+    "track_name": "Day 'n' Nite",
+    "artist": "Kid Cudi",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 37,
+    "total_minutes": 82.1,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_800157892",
+    "track_name": "There Is a Light That Never Goes Out",
+    "artist": "The Smiths",
+    "genre": "Alternative",
+    "total_plays": 37,
+    "total_minutes": 80.11,
+    "avg_completion_pct": 53.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440949574",
+    "track_name": "Greensleeves",
+    "artist": "Vince Guaraldi Trio",
+    "genre": "Holiday",
+    "total_plays": 37,
+    "total_minutes": 107.92,
+    "avg_completion_pct": 53.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1442899721",
+    "track_name": "Bad Things",
+    "artist": "mgk & Camila Cabello",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 36,
+    "total_minutes": 89.36,
+    "avg_completion_pct": 62.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1373892792",
+    "track_name": "Why Didn't You Stop Me?",
+    "artist": "Mitski",
+    "genre": "Indie Rock",
+    "total_plays": 36,
+    "total_minutes": 54.84,
+    "avg_completion_pct": 64.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440858500",
+    "track_name": "Can't Feel My Face",
+    "artist": "The Weeknd",
+    "genre": "R&B/Soul",
+    "total_plays": 36,
+    "total_minutes": 75.69,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1870984047",
+    "track_name": "Pop",
+    "artist": "Harry Styles",
+    "genre": "Pop",
+    "total_plays": 36,
+    "total_minutes": 77.4,
+    "avg_completion_pct": 59.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_617827657",
+    "track_name": "I.G.Y.",
+    "artist": "Donald Fagen",
+    "genre": "Pop",
+    "total_plays": 36,
+    "total_minutes": 142.89,
+    "avg_completion_pct": 65.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_259107548",
+    "track_name": "Valerie (feat. Amy Winehouse)",
+    "artist": "Mark Ronson featuring Amy Winehouse",
+    "genre": "Pop",
+    "total_plays": 36,
+    "total_minutes": 75.91,
+    "avg_completion_pct": 57.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1580652358",
+    "track_name": "How To Love",
+    "artist": "Lil Wayne",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 35,
+    "total_minutes": 84.18,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_386153613",
+    "track_name": "Confessions, Pt. II (Confessions Special Edition Version)",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 35,
+    "total_minutes": 76.09,
+    "avg_completion_pct": 61.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1272353167",
+    "track_name": "Good Old Days (feat. Kesha)",
+    "artist": "Macklemore",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 35,
+    "total_minutes": 70.71,
+    "avg_completion_pct": 50.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_201257731",
+    "track_name": "Indonesia",
+    "artist": "Gato Barbieri",
+    "genre": "Jazz",
+    "total_plays": 35,
+    "total_minutes": 88.39,
+    "avg_completion_pct": 52.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1443852194",
+    "track_name": "Jazz (Ain't Nothin' But Soul)",
+    "artist": "Richard Wess & Betty Carter",
+    "genre": "Pop",
+    "total_plays": 35,
+    "total_minutes": 41.65,
+    "avg_completion_pct": 61.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1536646948",
+    "track_name": "Too Good at Goodbyes",
+    "artist": "Sam Smith",
+    "genre": "Pop",
+    "total_plays": 35,
+    "total_minutes": 70.86,
+    "avg_completion_pct": 60.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1581702085",
+    "track_name": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "genre": "Singer/Songwriter",
+    "total_plays": 34,
+    "total_minutes": 65.15,
+    "avg_completion_pct": 64.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1538017382",
+    "track_name": "Indonesia",
+    "artist": "August Burns Red",
+    "genre": "Metal",
+    "total_plays": 34,
+    "total_minutes": 73.84,
+    "avg_completion_pct": 60.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_310527535",
+    "track_name": "Just the Two of Us (feat. Bill Withers)",
+    "artist": "Grover Washington, Jr.",
+    "genre": "Jazz",
+    "total_plays": 34,
+    "total_minutes": 157.46,
+    "avg_completion_pct": 63.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1124509073",
+    "track_name": "Indonesia (Direction for One Remix)",
+    "artist": "Google G",
+    "genre": "Ambient",
+    "total_plays": 34,
+    "total_minutes": 106.53,
+    "avg_completion_pct": 51.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1893175134",
+    "track_name": "Bags",
+    "artist": "Clairo",
+    "genre": "Alternative",
+    "total_plays": 34,
+    "total_minutes": 88.59,
+    "avg_completion_pct": 60.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_265816631",
+    "track_name": "Maria Maria (feat. The Product G&B) [Radio Mix]",
+    "artist": "Santana",
+    "genre": "Rock",
+    "total_plays": 34,
+    "total_minutes": 69.57,
+    "avg_completion_pct": 46.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1560735421",
+    "track_name": "traitor",
+    "artist": "Olivia Rodrigo",
+    "genre": "Pop",
+    "total_plays": 34,
+    "total_minutes": 79.88,
+    "avg_completion_pct": 61.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_590431778",
+    "track_name": "One Step Closer",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 34,
+    "total_minutes": 51.06,
+    "avg_completion_pct": 57.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1441416638",
+    "track_name": "we fell in love in october",
+    "artist": "girl in red",
+    "genre": "Alternative",
+    "total_plays": 34,
+    "total_minutes": 66.3,
+    "avg_completion_pct": 63.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1772783961",
+    "track_name": "Rock",
+    "artist": "Stepz",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 34,
+    "total_minutes": 48.91,
+    "avg_completion_pct": 59.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1606064876",
+    "track_name": "What You Won't Do for Love",
+    "artist": "Bobby Caldwell",
+    "genre": "R&B/Soul",
+    "total_plays": 34,
+    "total_minutes": 74.95,
+    "avg_completion_pct": 46.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_386153613",
+    "track_name": "Confessions, Pt. II (Confessions Special Edition Version)",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 34,
+    "total_minutes": 64.63,
+    "avg_completion_pct": 54.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1030015261",
+    "track_name": "C U Girl",
+    "artist": "Steve Lacy",
+    "genre": "R&B/Soul",
+    "total_plays": 34,
+    "total_minutes": 46.75,
+    "avg_completion_pct": 63.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440783625",
+    "track_name": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "genre": "Rock",
+    "total_plays": 33,
+    "total_minutes": 94.63,
+    "avg_completion_pct": 57.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_269954555",
+    "track_name": "Indonesia",
+    "artist": "Jazz Liberatorz & Tableek",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 33,
+    "total_minutes": 86.36,
+    "avg_completion_pct": 43.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440814076",
+    "track_name": "Blue Dream",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 33,
+    "total_minutes": 62.55,
+    "avg_completion_pct": 52.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440858717",
+    "track_name": "My Way",
+    "artist": "Frank Sinatra",
+    "genre": "Jazz",
+    "total_plays": 33,
+    "total_minutes": 84.78,
+    "avg_completion_pct": 55.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1052961500",
+    "track_name": "Indonesia",
+    "artist": "Lamont Landers",
+    "genre": "Rock",
+    "total_plays": 33,
+    "total_minutes": 67.5,
+    "avg_completion_pct": 53.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_264720124",
+    "track_name": "Kids",
+    "artist": "MGMT",
+    "genre": "Alternative",
+    "total_plays": 33,
+    "total_minutes": 95.99,
+    "avg_completion_pct": 57.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1294891109",
+    "track_name": "Jungle",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 33,
+    "total_minutes": 107.58,
+    "avg_completion_pct": 64.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1437605661",
+    "track_name": "Indonesia (Sambal Badjak Mix)",
+    "artist": "Circle Children",
+    "genre": "House",
+    "total_plays": 33,
+    "total_minutes": 112.99,
+    "avg_completion_pct": 56.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_265816631",
+    "track_name": "Maria Maria (feat. The Product G&B) [Radio Mix]",
+    "artist": "Santana",
+    "genre": "Rock",
+    "total_plays": 33,
+    "total_minutes": 87.63,
+    "avg_completion_pct": 60.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1469522003",
+    "track_name": "Hate Me",
+    "artist": "Ellie Goulding & Juice WRLD",
+    "genre": "Pop",
+    "total_plays": 33,
+    "total_minutes": 68.32,
+    "avg_completion_pct": 66.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_267264869",
+    "track_name": "Kiss Kiss (feat. T-Pain)",
+    "artist": "Chris Brown",
+    "genre": "R&B/Soul",
+    "total_plays": 33,
+    "total_minutes": 82.97,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1623489918",
+    "track_name": "Good Looking",
+    "artist": "Suki Waterhouse",
+    "genre": "Alternative",
+    "total_plays": 33,
+    "total_minutes": 63.79,
+    "avg_completion_pct": 54.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1443542820",
+    "track_name": "Indonesia",
+    "artist": "Amos Lee",
+    "genre": "Singer/Songwriter",
+    "total_plays": 33,
+    "total_minutes": 63.11,
+    "avg_completion_pct": 55.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440872309",
+    "track_name": "I Feel It Coming (feat. Daft Punk)",
+    "artist": "The Weeknd",
+    "genre": "R&B/Soul",
+    "total_plays": 32,
+    "total_minutes": 99.15,
+    "avg_completion_pct": 69.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1538017382",
+    "track_name": "Indonesia",
+    "artist": "August Burns Red",
+    "genre": "Metal",
+    "total_plays": 32,
+    "total_minutes": 67.36,
+    "avg_completion_pct": 58.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1770187510",
+    "track_name": "Sailor Song",
+    "artist": "Gigi Perez",
+    "genre": "Pop",
+    "total_plays": 32,
+    "total_minutes": 69.95,
+    "avg_completion_pct": 61.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_617827657",
+    "track_name": "I.G.Y.",
+    "artist": "Donald Fagen",
+    "genre": "Pop",
+    "total_plays": 32,
+    "total_minutes": 99.3,
+    "avg_completion_pct": 51.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1690720334",
+    "track_name": "The Hardest Part",
+    "artist": "Olivia Dean & Leon Bridges",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 64.69,
+    "avg_completion_pct": 68.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1272353167",
+    "track_name": "Good Old Days (feat. Kesha)",
+    "artist": "Macklemore",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 32,
+    "total_minutes": 75.24,
+    "avg_completion_pct": 58.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_945578427",
+    "track_name": "Can't Stop",
+    "artist": "Red Hot Chili Peppers",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 90.6,
+    "avg_completion_pct": 63.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_800157892",
+    "track_name": "There Is a Light That Never Goes Out",
+    "artist": "The Smiths",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 66.81,
+    "avg_completion_pct": 51.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440754487",
+    "track_name": "Somebody That I Used to Know (feat. Kimbra)",
+    "artist": "Gotye",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 71.26,
+    "avg_completion_pct": 54.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_515561535",
+    "track_name": "Indonesia [Alternate Version]",
+    "artist": "August Burns Red",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 67.89,
+    "avg_completion_pct": 58.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440754487",
+    "track_name": "Somebody That I Used to Know (feat. Kimbra)",
+    "artist": "Gotye",
+    "genre": "Alternative",
+    "total_plays": 32,
+    "total_minutes": 73.55,
+    "avg_completion_pct": 56.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1770187510",
+    "track_name": "Sailor Song",
+    "artist": "Gigi Perez",
+    "genre": "Pop",
+    "total_plays": 31,
+    "total_minutes": 69.8,
+    "avg_completion_pct": 63.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1690487059",
+    "track_name": "Indonesia",
+    "artist": "Divorce Court",
+    "genre": "Alternative",
+    "total_plays": 31,
+    "total_minutes": 63.67,
+    "avg_completion_pct": 48.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1294891109",
+    "track_name": "Jungle",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 31,
+    "total_minutes": 89.41,
+    "avg_completion_pct": 56.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1585892546",
+    "track_name": "Jazz (We've Got) [Radio Version]",
+    "artist": "A Tribe Called Quest",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 31,
+    "total_minutes": 85.92,
+    "avg_completion_pct": 66.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1475930045",
+    "track_name": "Dance Monkey",
+    "artist": "Tones And I",
+    "genre": "Alternative",
+    "total_plays": 31,
+    "total_minutes": 71.66,
+    "avg_completion_pct": 66.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440813309",
+    "track_name": "Spotless Mind",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 31,
+    "total_minutes": 81.61,
+    "avg_completion_pct": 58.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440816527",
+    "track_name": "Mansion (feat. Fleurie)",
+    "artist": "NF",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 31,
+    "total_minutes": 110.23,
+    "avg_completion_pct": 66.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1321217032",
+    "track_name": "Havana (feat. Young Thug)",
+    "artist": "Camila Cabello",
+    "genre": "Pop",
+    "total_plays": 31,
+    "total_minutes": 50.43,
+    "avg_completion_pct": 44.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1674461113",
+    "track_name": "Indonesia",
+    "artist": "Amuseity",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 31,
+    "total_minutes": 28.3,
+    "avg_completion_pct": 62.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1617969731",
+    "track_name": "Shut up My Moms Calling",
+    "artist": "Hotel Ugly",
+    "genre": "Neo-Soul",
+    "total_plays": 31,
+    "total_minutes": 48.3,
+    "avg_completion_pct": 56.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1469522003",
+    "track_name": "Hate Me",
+    "artist": "Ellie Goulding & Juice WRLD",
+    "genre": "Pop",
+    "total_plays": 31,
+    "total_minutes": 57.33,
+    "avg_completion_pct": 59.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1294891095",
+    "track_name": "Changes",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 31,
+    "total_minutes": 69.63,
+    "avg_completion_pct": 63.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_945578427",
+    "track_name": "Can't Stop",
+    "artist": "Red Hot Chili Peppers",
+    "genre": "Alternative",
+    "total_plays": 31,
+    "total_minutes": 70.75,
+    "avg_completion_pct": 50.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_997914096",
+    "track_name": "Space Song",
+    "artist": "Beach House",
+    "genre": "Alternative",
+    "total_plays": 31,
+    "total_minutes": 72.18,
+    "avg_completion_pct": 43.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440783625",
+    "track_name": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "genre": "Rock",
+    "total_plays": 31,
+    "total_minutes": 88.86,
+    "avg_completion_pct": 57.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_721253705",
+    "track_name": "Need You Now",
+    "artist": "Lady A",
+    "genre": "Country",
+    "total_plays": 31,
+    "total_minutes": 95.6,
+    "avg_completion_pct": 66.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1460315065",
+    "track_name": "We Can't Stop",
+    "artist": "Miley Cyrus",
+    "genre": "Pop",
+    "total_plays": 31,
+    "total_minutes": 70.86,
+    "avg_completion_pct": 59.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1452877474",
+    "track_name": "Mr. Rager",
+    "artist": "Kid Cudi",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 31,
+    "total_minutes": 84.75,
+    "avg_completion_pct": 55.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1536646948",
+    "track_name": "Too Good at Goodbyes",
+    "artist": "Sam Smith",
+    "genre": "Pop",
+    "total_plays": 31,
+    "total_minutes": 55.3,
+    "avg_completion_pct": 53.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440862694",
+    "track_name": "My Songs Know What You Did In The Dark (Light Em Up)",
+    "artist": "Fall Out Boy",
+    "genre": "Alternative",
+    "total_plays": 31,
+    "total_minutes": 55.49,
+    "avg_completion_pct": 57.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_128893274",
+    "track_name": "Indonesia",
+    "artist": "Above & Beyond",
+    "genre": "Dance",
+    "total_plays": 31,
+    "total_minutes": 95.53,
+    "avg_completion_pct": 61.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_712721787",
+    "track_name": "Stacy's Mom",
+    "artist": "Fountains Of Wayne",
+    "genre": "Pop",
+    "total_plays": 30,
+    "total_minutes": 59.05,
+    "avg_completion_pct": 59.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1588295076",
+    "track_name": "Indonesia",
+    "artist": "RUBIO",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 54.61,
+    "avg_completion_pct": 50.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1452877474",
+    "track_name": "Mr. Rager",
+    "artist": "Kid Cudi",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 30,
+    "total_minutes": 80.15,
+    "avg_completion_pct": 54.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1146195724",
+    "track_name": "Close to You",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 30,
+    "total_minutes": 22.69,
+    "avg_completion_pct": 52.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1524885946",
+    "track_name": "The Hardest Part",
+    "artist": "Olivia Dean",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 49.53,
+    "avg_completion_pct": 56.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1690487059",
+    "track_name": "Indonesia",
+    "artist": "Divorce Court",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 75.56,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1560735421",
+    "track_name": "traitor",
+    "artist": "Olivia Rodrigo",
+    "genre": "Pop",
+    "total_plays": 30,
+    "total_minutes": 67.75,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_264720124",
+    "track_name": "Kids",
+    "artist": "MGMT",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 96.25,
+    "avg_completion_pct": 63.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1441416638",
+    "track_name": "we fell in love in october",
+    "artist": "girl in red",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 55.64,
+    "avg_completion_pct": 60.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1160082180",
+    "track_name": "Basket Case",
+    "artist": "Green Day",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 51.77,
+    "avg_completion_pct": 56.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1334814531",
+    "track_name": "Little Dark Age",
+    "artist": "MGMT",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 98.65,
+    "avg_completion_pct": 65.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1458638381",
+    "track_name": "Old Town Road (feat. Billy Ray Cyrus) [Remix]",
+    "artist": "Lil Nas X",
+    "genre": "Country",
+    "total_plays": 30,
+    "total_minutes": 47.22,
+    "avg_completion_pct": 60.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440813298",
+    "track_name": "W.A.Y.S.",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 30,
+    "total_minutes": 65.39,
+    "avg_completion_pct": 54.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1772783961",
+    "track_name": "Rock",
+    "artist": "Stepz",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 30,
+    "total_minutes": 42.98,
+    "avg_completion_pct": 59.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_255427987",
+    "track_name": "Day-O (The Banana Boat Song)",
+    "artist": "Harry Belafonte",
+    "genre": "Folk",
+    "total_plays": 30,
+    "total_minutes": 57.66,
+    "avg_completion_pct": 62.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1097862845",
+    "track_name": "Fake Plastic Trees",
+    "artist": "Radiohead",
+    "genre": "Alternative",
+    "total_plays": 30,
+    "total_minutes": 94.39,
+    "avg_completion_pct": 64.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1209647304",
+    "track_name": "Confidently Lost",
+    "artist": "Sabrina Claudio",
+    "genre": "R&B/Soul",
+    "total_plays": 30,
+    "total_minutes": 61.94,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_282219338",
+    "track_name": "Put Your Head On My Shoulder",
+    "artist": "Paul Anka & Joe Sherman",
+    "genre": "Vocal",
+    "total_plays": 30,
+    "total_minutes": 57.07,
+    "avg_completion_pct": 73.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1477880568",
+    "track_name": "Take What You Want (feat. Ozzy Osbourne & Travis Scott)",
+    "artist": "Post Malone",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 30,
+    "total_minutes": 70.12,
+    "avg_completion_pct": 61.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1468166328",
+    "track_name": "Panini",
+    "artist": "Lil Nas X",
+    "genre": "Pop",
+    "total_plays": 30,
+    "total_minutes": 32.87,
+    "avg_completion_pct": 57.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440814076",
+    "track_name": "Blue Dream",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 30,
+    "total_minutes": 72.14,
+    "avg_completion_pct": 66.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440827492",
+    "track_name": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "genre": "Country",
+    "total_plays": 29,
+    "total_minutes": 79.31,
+    "avg_completion_pct": 56.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1544491988",
+    "track_name": "Set Fire to the Rain",
+    "artist": "Adele",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 74.65,
+    "avg_completion_pct": 63.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_721253705",
+    "track_name": "Need You Now",
+    "artist": "Lady A",
+    "genre": "Country",
+    "total_plays": 29,
+    "total_minutes": 71.4,
+    "avg_completion_pct": 53.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1124509073",
+    "track_name": "Indonesia (Direction for One Remix)",
+    "artist": "Google G",
+    "genre": "Ambient",
+    "total_plays": 29,
+    "total_minutes": 116.74,
+    "avg_completion_pct": 66.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1674461113",
+    "track_name": "Indonesia",
+    "artist": "Amuseity",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 29,
+    "total_minutes": 23.15,
+    "avg_completion_pct": 55.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440872309",
+    "track_name": "I Feel It Coming (feat. Daft Punk)",
+    "artist": "The Weeknd",
+    "genre": "R&B/Soul",
+    "total_plays": 29,
+    "total_minutes": 77.47,
+    "avg_completion_pct": 59.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1038703713",
+    "track_name": "Rock",
+    "artist": "SEVENTEEN",
+    "genre": "K-Pop",
+    "total_plays": 29,
+    "total_minutes": 39.5,
+    "avg_completion_pct": 42.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1501349802",
+    "track_name": "Hiphop (feat. Deshinor)",
+    "artist": "Laycon",
+    "genre": "Afro-Beat",
+    "total_plays": 29,
+    "total_minutes": 60.62,
+    "avg_completion_pct": 57.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_302992640",
+    "track_name": "One, Two Step (feat. Missy Elliott)",
+    "artist": "Ciara",
+    "genre": "R&B/Soul",
+    "total_plays": 29,
+    "total_minutes": 58.15,
+    "avg_completion_pct": 59.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_98312564",
+    "track_name": "Wari",
+    "artist": "Jalan Jalan",
+    "genre": "New Age",
+    "total_plays": 29,
+    "total_minutes": 107.48,
+    "avg_completion_pct": 55.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_186166358",
+    "track_name": "Rock with You (Single Version)",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 60.34,
+    "avg_completion_pct": 56.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1846450928",
+    "track_name": "Indonesia",
+    "artist": "Dylan Coronel & La Cuatiza",
+    "genre": "Latin",
+    "total_plays": 29,
+    "total_minutes": 47.58,
+    "avg_completion_pct": 51.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1477880561",
+    "track_name": "Circles",
+    "artist": "Post Malone",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 29,
+    "total_minutes": 63.56,
+    "avg_completion_pct": 61.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_6789831682",
+    "track_name": "On the Level",
+    "artist": "Mac DeMarco",
+    "genre": "Alternative",
+    "total_plays": 29,
+    "total_minutes": 60.94,
+    "avg_completion_pct": 55.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_993976750",
+    "track_name": "Jazz (Sexual Guitar)",
+    "artist": "Alicia Nando",
+    "genre": "Instrumental",
+    "total_plays": 29,
+    "total_minutes": 91.57,
+    "avg_completion_pct": 58.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_692818120",
+    "track_name": "Always Forever",
+    "artist": "Cults",
+    "genre": "Alternative",
+    "total_plays": 29,
+    "total_minutes": 68.8,
+    "avg_completion_pct": 63.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1455151648",
+    "track_name": "Talk (feat. Disclosure)",
+    "artist": "Khalid",
+    "genre": "R&B/Soul",
+    "total_plays": 29,
+    "total_minutes": 64.24,
+    "avg_completion_pct": 67.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1445007713",
+    "track_name": "Party In the U.S.A.",
+    "artist": "Miley Cyrus",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 52.57,
+    "avg_completion_pct": 53.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1294891095",
+    "track_name": "Changes",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 29,
+    "total_minutes": 57.13,
+    "avg_completion_pct": 55.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1590036021",
+    "track_name": "Easy On Me",
+    "artist": "Adele",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 53.54,
+    "avg_completion_pct": 49.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1421658665",
+    "track_name": "BUTTERFLY EFFECT",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 29,
+    "total_minutes": 54.39,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_186166358",
+    "track_name": "Rock with You (Single Version)",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 60.63,
+    "avg_completion_pct": 57.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1524885946",
+    "track_name": "The Hardest Part",
+    "artist": "Olivia Dean",
+    "genre": "Alternative",
+    "total_plays": 29,
+    "total_minutes": 48.94,
+    "avg_completion_pct": 57.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1787344772",
+    "track_name": "To the Bone",
+    "artist": "Pamungkas",
+    "genre": "Pop",
+    "total_plays": 29,
+    "total_minutes": 98.76,
+    "avg_completion_pct": 59.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_251550398",
+    "track_name": "Indonesia",
+    "artist": "Joshua Redman",
+    "genre": "Jazz",
+    "total_plays": 28,
+    "total_minutes": 73.48,
+    "avg_completion_pct": 56.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_169003415",
+    "track_name": "Don't Stop Believin' (2024 Remaster)",
+    "artist": "Journey",
+    "genre": "Rock",
+    "total_plays": 28,
+    "total_minutes": 78.96,
+    "avg_completion_pct": 67.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_128893274",
+    "track_name": "Indonesia",
+    "artist": "Above & Beyond",
+    "genre": "Dance",
+    "total_plays": 28,
+    "total_minutes": 91.4,
+    "avg_completion_pct": 65.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1294890449",
+    "track_name": "Losing",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 28,
+    "total_minutes": 61.11,
+    "avg_completion_pct": 58.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_590431785",
+    "track_name": "In the End",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 28,
+    "total_minutes": 62.78,
+    "avg_completion_pct": 62.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1294890451",
+    "track_name": "Avenue",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 28,
+    "total_minutes": 63.13,
+    "avg_completion_pct": 63.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_158004360",
+    "track_name": "Indonesia",
+    "artist": "Ian Ritchie, Ian Ritchie, Michael Conn & The West India Company",
+    "genre": "Worldwide",
+    "total_plays": 28,
+    "total_minutes": 118.13,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1107254996",
+    "track_name": "Way Down We Go",
+    "artist": "KALEO",
+    "genre": "Alternative",
+    "total_plays": 28,
+    "total_minutes": 49.72,
+    "avg_completion_pct": 48.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1846450928",
+    "track_name": "Indonesia",
+    "artist": "Dylan Coronel & La Cuatiza",
+    "genre": "Latin",
+    "total_plays": 28,
+    "total_minutes": 57.59,
+    "avg_completion_pct": 64.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440949574",
+    "track_name": "Greensleeves",
+    "artist": "Vince Guaraldi Trio",
+    "genre": "Holiday",
+    "total_plays": 28,
+    "total_minutes": 95.77,
+    "avg_completion_pct": 62.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1146195719",
+    "track_name": "Good Guy",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 28,
+    "total_minutes": 18.34,
+    "avg_completion_pct": 58.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1580652358",
+    "track_name": "How To Love",
+    "artist": "Lil Wayne",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 28,
+    "total_minutes": 72.22,
+    "avg_completion_pct": 64.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1443542820",
+    "track_name": "Indonesia",
+    "artist": "Amos Lee",
+    "genre": "Singer/Songwriter",
+    "total_plays": 28,
+    "total_minutes": 65.28,
+    "avg_completion_pct": 67.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1590036021",
+    "track_name": "Easy On Me",
+    "artist": "Adele",
+    "genre": "Pop",
+    "total_plays": 28,
+    "total_minutes": 58.12,
+    "avg_completion_pct": 55.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1441652008",
+    "track_name": "Indonesia",
+    "artist": "Masajes Spa Maestro",
+    "genre": "New Age",
+    "total_plays": 28,
+    "total_minutes": 69.92,
+    "avg_completion_pct": 49.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1623489918",
+    "track_name": "Good Looking",
+    "artist": "Suki Waterhouse",
+    "genre": "Alternative",
+    "total_plays": 27,
+    "total_minutes": 62.06,
+    "avg_completion_pct": 64.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_255427987",
+    "track_name": "Day-O (The Banana Boat Song)",
+    "artist": "Harry Belafonte",
+    "genre": "Folk",
+    "total_plays": 27,
+    "total_minutes": 58.58,
+    "avg_completion_pct": 70.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1133368603",
+    "track_name": "Dream a Little Dream of Me",
+    "artist": "Doris Day",
+    "genre": "Pop",
+    "total_plays": 27,
+    "total_minutes": 62.17,
+    "avg_completion_pct": 61.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_302992640",
+    "track_name": "One, Two Step (feat. Missy Elliott)",
+    "artist": "Ciara",
+    "genre": "R&B/Soul",
+    "total_plays": 27,
+    "total_minutes": 54.47,
+    "avg_completion_pct": 59.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1746560129",
+    "track_name": "Ain't No Love In Oklahoma",
+    "artist": "Luke Combs",
+    "genre": "Country",
+    "total_plays": 27,
+    "total_minutes": 49.37,
+    "avg_completion_pct": 52.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440858129",
+    "track_name": "Fly Me to the Moon (feat. Count Basie and His Orchestra)",
+    "artist": "Frank Sinatra",
+    "genre": "Jazz",
+    "total_plays": 27,
+    "total_minutes": 40.25,
+    "avg_completion_pct": 60.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_386153729",
+    "track_name": "My Boo",
+    "artist": "Alicia Keys & USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 27,
+    "total_minutes": 62.18,
+    "avg_completion_pct": 61.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_278845473",
+    "track_name": "You Make Me Wanna...",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 27,
+    "total_minutes": 60.65,
+    "avg_completion_pct": 61.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_997914096",
+    "track_name": "Space Song",
+    "artist": "Beach House",
+    "genre": "Alternative",
+    "total_plays": 27,
+    "total_minutes": 73.98,
+    "avg_completion_pct": 51.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1583464615",
+    "track_name": "Indonesia",
+    "artist": "RUBIO",
+    "genre": "Alternative",
+    "total_plays": 27,
+    "total_minutes": 64.85,
+    "avg_completion_pct": 66.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440858717",
+    "track_name": "My Way",
+    "artist": "Frank Sinatra",
+    "genre": "Jazz",
+    "total_plays": 27,
+    "total_minutes": 58.93,
+    "avg_completion_pct": 47.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1421243623",
+    "track_name": "BUTTERFLY EFFECT",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 27,
+    "total_minutes": 41.77,
+    "avg_completion_pct": 48.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_255470095",
+    "track_name": "To Build a Home (feat. Patrick Watson)",
+    "artist": "The Cinematic Orchestra",
+    "genre": "Electronic",
+    "total_plays": 27,
+    "total_minutes": 76.05,
+    "avg_completion_pct": 45.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1437605661",
+    "track_name": "Indonesia (Sambal Badjak Mix)",
+    "artist": "Circle Children",
+    "genre": "House",
+    "total_plays": 27,
+    "total_minutes": 92.53,
+    "avg_completion_pct": 56.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1870984047",
+    "track_name": "Pop",
+    "artist": "Harry Styles",
+    "genre": "Pop",
+    "total_plays": 27,
+    "total_minutes": 55.32,
+    "avg_completion_pct": 56.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1276760748",
+    "track_name": "Doo Wop (That Thing)",
+    "artist": "Lauryn Hill",
+    "genre": "R&B/Soul",
+    "total_plays": 27,
+    "total_minutes": 89.56,
+    "avg_completion_pct": 62.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1050204631",
+    "track_name": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "total_plays": 27,
+    "total_minutes": 64.13,
+    "avg_completion_pct": 50.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1893175134",
+    "track_name": "Bags",
+    "artist": "Clairo",
+    "genre": "Alternative",
+    "total_plays": 27,
+    "total_minutes": 62.87,
+    "avg_completion_pct": 53.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1146195724",
+    "track_name": "Close to You",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 27,
+    "total_minutes": 23.01,
+    "avg_completion_pct": 59.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1421658665",
+    "track_name": "BUTTERFLY EFFECT",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 27,
+    "total_minutes": 47.09,
+    "avg_completion_pct": 54.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_80429794",
+    "track_name": "Temperature",
+    "artist": "Sean Paul",
+    "genre": "Pop",
+    "total_plays": 26,
+    "total_minutes": 51.21,
+    "avg_completion_pct": 54.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1467952309",
+    "track_name": "Somebody That I Used to Know (feat. Kimbra)",
+    "artist": "Gotye",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 71.25,
+    "avg_completion_pct": 67.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1373892792",
+    "track_name": "Why Didn't You Stop Me?",
+    "artist": "Mitski",
+    "genre": "Indie Rock",
+    "total_plays": 26,
+    "total_minutes": 35.11,
+    "avg_completion_pct": 57.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_48711436",
+    "track_name": "Indonesia (Sumatra)",
+    "artist": "Medan",
+    "genre": "Worldwide",
+    "total_plays": 26,
+    "total_minutes": 44.04,
+    "avg_completion_pct": 61.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1787344772",
+    "track_name": "To the Bone",
+    "artist": "Pamungkas",
+    "genre": "Pop",
+    "total_plays": 26,
+    "total_minutes": 93.57,
+    "avg_completion_pct": 62.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1445007713",
+    "track_name": "Party In the U.S.A.",
+    "artist": "Miley Cyrus",
+    "genre": "Pop",
+    "total_plays": 26,
+    "total_minutes": 47.02,
+    "avg_completion_pct": 53.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_268532564",
+    "track_name": "U Got It Bad",
+    "artist": "USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 26,
+    "total_minutes": 64.59,
+    "avg_completion_pct": 60.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_259107548",
+    "track_name": "Valerie (feat. Amy Winehouse)",
+    "artist": "Mark Ronson featuring Amy Winehouse",
+    "genre": "Pop",
+    "total_plays": 26,
+    "total_minutes": 46.32,
+    "avg_completion_pct": 48.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_692818120",
+    "track_name": "Always Forever",
+    "artist": "Cults",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 54.06,
+    "avg_completion_pct": 55.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1294890451",
+    "track_name": "Avenue",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 26,
+    "total_minutes": 55.49,
+    "avg_completion_pct": 59.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_590431782",
+    "track_name": "Crawling",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 52.71,
+    "avg_completion_pct": 58.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1443852194",
+    "track_name": "Jazz (Ain't Nothin' But Soul)",
+    "artist": "Richard Wess & Betty Carter",
+    "genre": "Pop",
+    "total_plays": 26,
+    "total_minutes": 28.39,
+    "avg_completion_pct": 56.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1334814531",
+    "track_name": "Little Dark Age",
+    "artist": "MGMT",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 86.55,
+    "avg_completion_pct": 66.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_309066884",
+    "track_name": "No Scrubs",
+    "artist": "TLC",
+    "genre": "R&B/Soul",
+    "total_plays": 26,
+    "total_minutes": 53.39,
+    "avg_completion_pct": 57.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440769834",
+    "track_name": "Down On Me (feat. 50 Cent)",
+    "artist": "Jeremih",
+    "genre": "R&B/Soul",
+    "total_plays": 26,
+    "total_minutes": 54.22,
+    "avg_completion_pct": 54.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1052961500",
+    "track_name": "Indonesia",
+    "artist": "Lamont Landers",
+    "genre": "Rock",
+    "total_plays": 26,
+    "total_minutes": 62.06,
+    "avg_completion_pct": 62.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440862694",
+    "track_name": "My Songs Know What You Did In The Dark (Light Em Up)",
+    "artist": "Fall Out Boy",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 48.55,
+    "avg_completion_pct": 59.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1038703713",
+    "track_name": "Rock",
+    "artist": "SEVENTEEN",
+    "genre": "K-Pop",
+    "total_plays": 26,
+    "total_minutes": 46.93,
+    "avg_completion_pct": 56.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440761318",
+    "track_name": "You (feat. Lil Wayne)",
+    "artist": "Lloyd featuring Lil Wayne",
+    "genre": "R&B/Soul",
+    "total_plays": 26,
+    "total_minutes": 71.5,
+    "avg_completion_pct": 60.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_515561535",
+    "track_name": "Indonesia [Alternate Version]",
+    "artist": "August Burns Red",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 52.93,
+    "avg_completion_pct": 56.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1417397139",
+    "track_name": "When We're Human (feat. Terence Blanchard)",
+    "artist": "Michael-Leon Wooley, Bruno Campos & Anika Noni Rose",
+    "genre": "Musicals",
+    "total_plays": 26,
+    "total_minutes": 33.67,
+    "avg_completion_pct": 54.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_201257731",
+    "track_name": "Indonesia",
+    "artist": "Gato Barbieri",
+    "genre": "Jazz",
+    "total_plays": 26,
+    "total_minutes": 75.39,
+    "avg_completion_pct": 60.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1839103265",
+    "track_name": "Indonesia* (Bonus Track)",
+    "artist": "The Mountain Goats",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 28.7,
+    "avg_completion_pct": 48.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1588295076",
+    "track_name": "Indonesia",
+    "artist": "RUBIO",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 64.85,
+    "avg_completion_pct": 69.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_269954555",
+    "track_name": "Indonesia",
+    "artist": "Jazz Liberatorz & Tableek",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 26,
+    "total_minutes": 93.3,
+    "avg_completion_pct": 59.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_590431785",
+    "track_name": "In the End",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 26,
+    "total_minutes": 52.72,
+    "avg_completion_pct": 56.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1421243623",
+    "track_name": "BUTTERFLY EFFECT",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 25,
+    "total_minutes": 45.31,
+    "avg_completion_pct": 57.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440754846",
+    "track_name": "Animal",
+    "artist": "Neon Trees",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 41.86,
+    "avg_completion_pct": 47.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1442899721",
+    "track_name": "Bad Things",
+    "artist": "mgk & Camila Cabello",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 25,
+    "total_minutes": 54.54,
+    "avg_completion_pct": 54.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_282219338",
+    "track_name": "Put Your Head On My Shoulder",
+    "artist": "Paul Anka & Joe Sherman",
+    "genre": "Vocal",
+    "total_plays": 25,
+    "total_minutes": 46.04,
+    "avg_completion_pct": 71.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_945568998",
+    "track_name": "Dani California",
+    "artist": "Red Hot Chili Peppers",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 69.81,
+    "avg_completion_pct": 59.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440827492",
+    "track_name": "Tennessee Whiskey",
+    "artist": "Chris Stapleton",
+    "genre": "Country",
+    "total_plays": 25,
+    "total_minutes": 60.29,
+    "avg_completion_pct": 49.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1622045962",
+    "track_name": "Ojitos Lindos",
+    "artist": "Bad Bunny & Bomba Estéreo",
+    "genre": "Latin",
+    "total_plays": 25,
+    "total_minutes": 71.98,
+    "avg_completion_pct": 66.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1670756419",
+    "track_name": "Favorite Song",
+    "artist": "Toosii",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 25,
+    "total_minutes": 42.19,
+    "avg_completion_pct": 48.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440881708",
+    "track_name": "LOVE. (feat. Zacari)",
+    "artist": "Kendrick Lamar",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 25,
+    "total_minutes": 55.12,
+    "avg_completion_pct": 62.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_251550398",
+    "track_name": "Indonesia",
+    "artist": "Joshua Redman",
+    "genre": "Jazz",
+    "total_plays": 25,
+    "total_minutes": 72.12,
+    "avg_completion_pct": 61.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440858129",
+    "track_name": "Fly Me to the Moon (feat. Count Basie and His Orchestra)",
+    "artist": "Frank Sinatra",
+    "genre": "Jazz",
+    "total_plays": 25,
+    "total_minutes": 40.12,
+    "avg_completion_pct": 65.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440816527",
+    "track_name": "Mansion (feat. Fleurie)",
+    "artist": "NF",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 25,
+    "total_minutes": 75.02,
+    "avg_completion_pct": 55.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440858500",
+    "track_name": "Can't Feel My Face",
+    "artist": "The Weeknd",
+    "genre": "R&B/Soul",
+    "total_plays": 25,
+    "total_minutes": 53.82,
+    "avg_completion_pct": 60.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440769834",
+    "track_name": "Down On Me (feat. 50 Cent)",
+    "artist": "Jeremih",
+    "genre": "R&B/Soul",
+    "total_plays": 25,
+    "total_minutes": 53.32,
+    "avg_completion_pct": 56.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1170699706",
+    "track_name": "Don't Let Me Down (feat. Daya)",
+    "artist": "The Chainsmokers",
+    "genre": "Dance",
+    "total_plays": 25,
+    "total_minutes": 53.86,
+    "avg_completion_pct": 61.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1050385382",
+    "track_name": "Death of a Bachelor",
+    "artist": "Panic! At the Disco",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 50.09,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1583464615",
+    "track_name": "Indonesia",
+    "artist": "RUBIO",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 47.48,
+    "avg_completion_pct": 52.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1617969731",
+    "track_name": "Shut up My Moms Calling",
+    "artist": "Hotel Ugly",
+    "genre": "Neo-Soul",
+    "total_plays": 25,
+    "total_minutes": 44.72,
+    "avg_completion_pct": 65.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_267264869",
+    "track_name": "Kiss Kiss (feat. T-Pain)",
+    "artist": "Chris Brown",
+    "genre": "R&B/Soul",
+    "total_plays": 25,
+    "total_minutes": 62.16,
+    "avg_completion_pct": 59.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1538016217",
+    "track_name": "Indonesia (Remix)",
+    "artist": "August Burns Red",
+    "genre": "Metal",
+    "total_plays": 25,
+    "total_minutes": 44.42,
+    "avg_completion_pct": 49.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1644423852",
+    "track_name": "Indonesia",
+    "artist": "Kids Learning Tube",
+    "genre": "Children's Music",
+    "total_plays": 25,
+    "total_minutes": 74.16,
+    "avg_completion_pct": 54.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1437697155",
+    "track_name": "Ain't No Rest for the Wicked",
+    "artist": "Cage the Elephant",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 42.97,
+    "avg_completion_pct": 58.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1176303886",
+    "track_name": "After Dark",
+    "artist": "Mr.Kitty",
+    "genre": "Alternative",
+    "total_plays": 25,
+    "total_minutes": 62.71,
+    "avg_completion_pct": 58.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440745246",
+    "track_name": "Day 'n' Nite",
+    "artist": "Kid Cudi",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 24,
+    "total_minutes": 45.88,
+    "avg_completion_pct": 51.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1107254996",
+    "track_name": "Way Down We Go",
+    "artist": "KALEO",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 52.69,
+    "avg_completion_pct": 60.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_712609985",
+    "track_name": "The Way You Look Tonight",
+    "artist": "Tony Bennett",
+    "genre": "Vocal Pop",
+    "total_plays": 24,
+    "total_minutes": 48.17,
+    "avg_completion_pct": 59.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440766959",
+    "track_name": "Forrest Gump",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 24,
+    "total_minutes": 42.7,
+    "avg_completion_pct": 54.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_169003415",
+    "track_name": "Don't Stop Believin' (2024 Remaster)",
+    "artist": "Journey",
+    "genre": "Rock",
+    "total_plays": 24,
+    "total_minutes": 63.21,
+    "avg_completion_pct": 63.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_255470095",
+    "track_name": "To Build a Home (feat. Patrick Watson)",
+    "artist": "The Cinematic Orchestra",
+    "genre": "Electronic",
+    "total_plays": 24,
+    "total_minutes": 73.01,
+    "avg_completion_pct": 49.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1477880568",
+    "track_name": "Take What You Want (feat. Ozzy Osbourne & Travis Scott)",
+    "artist": "Post Malone",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 24,
+    "total_minutes": 54.13,
+    "avg_completion_pct": 59.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1097862845",
+    "track_name": "Fake Plastic Trees",
+    "artist": "Radiohead",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 66.74,
+    "avg_completion_pct": 57.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1146195719",
+    "track_name": "Good Guy",
+    "artist": "Frank Ocean",
+    "genre": "Pop",
+    "total_plays": 24,
+    "total_minutes": 17.75,
+    "avg_completion_pct": 66.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1321217032",
+    "track_name": "Havana (feat. Young Thug)",
+    "artist": "Camila Cabello",
+    "genre": "Pop",
+    "total_plays": 24,
+    "total_minutes": 57.96,
+    "avg_completion_pct": 66.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_945568998",
+    "track_name": "Dani California",
+    "artist": "Red Hot Chili Peppers",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 65.21,
+    "avg_completion_pct": 57.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1387814980",
+    "track_name": "Humility (feat. George Benson)",
+    "artist": "Gorillaz",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 47.45,
+    "avg_completion_pct": 60.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_310527535",
+    "track_name": "Just the Two of Us (feat. Bill Withers)",
+    "artist": "Grover Washington, Jr.",
+    "genre": "Jazz",
+    "total_plays": 24,
+    "total_minutes": 118.95,
+    "avg_completion_pct": 67.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_590431782",
+    "track_name": "Crawling",
+    "artist": "LINKIN PARK",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 52.82,
+    "avg_completion_pct": 63.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1458638381",
+    "track_name": "Old Town Road (feat. Billy Ray Cyrus) [Remix]",
+    "artist": "Lil Nas X",
+    "genre": "Country",
+    "total_plays": 24,
+    "total_minutes": 41.89,
+    "avg_completion_pct": 66.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_214403648",
+    "track_name": "Rockstar",
+    "artist": "Nickelback",
+    "genre": "Rock",
+    "total_plays": 24,
+    "total_minutes": 61.45,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1690720334",
+    "track_name": "The Hardest Part",
+    "artist": "Olivia Dean & Leon Bridges",
+    "genre": "Alternative",
+    "total_plays": 24,
+    "total_minutes": 42.84,
+    "avg_completion_pct": 60.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440856669",
+    "track_name": "Indonesia",
+    "artist": "Amos Lee",
+    "genre": "Pop",
+    "total_plays": 23,
+    "total_minutes": 51.97,
+    "avg_completion_pct": 65.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1624932774",
+    "track_name": "POP!",
+    "artist": "NAYEON",
+    "genre": "Dance",
+    "total_plays": 23,
+    "total_minutes": 43.02,
+    "avg_completion_pct": 66.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1203896605",
+    "track_name": "I Can't Get Next to You",
+    "artist": "Al Green",
+    "genre": "R&B/Soul",
+    "total_plays": 23,
+    "total_minutes": 58.27,
+    "avg_completion_pct": 65.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1839103265",
+    "track_name": "Indonesia* (Bonus Track)",
+    "artist": "The Mountain Goats",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 35.22,
+    "avg_completion_pct": 67.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1501349802",
+    "track_name": "Hiphop (feat. Deshinor)",
+    "artist": "Laycon",
+    "genre": "Afro-Beat",
+    "total_plays": 23,
+    "total_minutes": 41.21,
+    "avg_completion_pct": 49.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1477880561",
+    "track_name": "Circles",
+    "artist": "Post Malone",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 23,
+    "total_minutes": 48.98,
+    "avg_completion_pct": 59.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1387814980",
+    "track_name": "Humility (feat. George Benson)",
+    "artist": "Gorillaz",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 43.86,
+    "avg_completion_pct": 57.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1050385382",
+    "track_name": "Death of a Bachelor",
+    "artist": "Panic! At the Disco",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 46.24,
+    "avg_completion_pct": 59.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_712609985",
+    "track_name": "The Way You Look Tonight",
+    "artist": "Tony Bennett",
+    "genre": "Vocal Pop",
+    "total_plays": 23,
+    "total_minutes": 52.6,
+    "avg_completion_pct": 67.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1133368603",
+    "track_name": "Dream a Little Dream of Me",
+    "artist": "Doris Day",
+    "genre": "Pop",
+    "total_plays": 23,
+    "total_minutes": 54.71,
+    "avg_completion_pct": 63.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1160082180",
+    "track_name": "Basket Case",
+    "artist": "Green Day",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 45.83,
+    "avg_completion_pct": 65.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1467952309",
+    "track_name": "Somebody That I Used to Know (feat. Kimbra)",
+    "artist": "Gotye",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 48.61,
+    "avg_completion_pct": 51.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1806176608",
+    "track_name": "You'll Be In My Heart",
+    "artist": "NIKI",
+    "genre": "Alternative",
+    "total_plays": 23,
+    "total_minutes": 61.95,
+    "avg_completion_pct": 66.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_993976750",
+    "track_name": "Jazz (Sexual Guitar)",
+    "artist": "Alicia Nando",
+    "genre": "Instrumental",
+    "total_plays": 23,
+    "total_minutes": 73.97,
+    "avg_completion_pct": 59.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1460315065",
+    "track_name": "We Can't Stop",
+    "artist": "Miley Cyrus",
+    "genre": "Pop",
+    "total_plays": 23,
+    "total_minutes": 57.37,
+    "avg_completion_pct": 64.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440819170",
+    "track_name": "Dark Horse (feat. Juicy J)",
+    "artist": "Katy Perry",
+    "genre": "Pop",
+    "total_plays": 23,
+    "total_minutes": 56.27,
+    "avg_completion_pct": 68.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1585892546",
+    "track_name": "Jazz (We've Got) [Radio Version]",
+    "artist": "A Tribe Called Quest",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 23,
+    "total_minutes": 64.66,
+    "avg_completion_pct": 67.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1538016217",
+    "track_name": "Indonesia (Remix)",
+    "artist": "August Burns Red",
+    "genre": "Metal",
+    "total_plays": 23,
+    "total_minutes": 46.98,
+    "avg_completion_pct": 57.5
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1421243212",
+    "track_name": "YOSEMITE",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 23,
+    "total_minutes": 34.12,
+    "avg_completion_pct": 59.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1471704175",
+    "track_name": "Counting Stars",
+    "artist": "OneRepublic",
+    "genre": "Pop",
+    "total_plays": 22,
+    "total_minutes": 47.48,
+    "avg_completion_pct": 50.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1746560129",
+    "track_name": "Ain't No Love In Oklahoma",
+    "artist": "Luke Combs",
+    "genre": "Country",
+    "total_plays": 22,
+    "total_minutes": 34.97,
+    "avg_completion_pct": 45.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1455151648",
+    "track_name": "Talk (feat. Disclosure)",
+    "artist": "Khalid",
+    "genre": "R&B/Soul",
+    "total_plays": 22,
+    "total_minutes": 40.61,
+    "avg_completion_pct": 56.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_158004360",
+    "track_name": "Indonesia",
+    "artist": "Ian Ritchie, Ian Ritchie, Michael Conn & The West India Company",
+    "genre": "Worldwide",
+    "total_plays": 22,
+    "total_minutes": 93.99,
+    "avg_completion_pct": 59.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440787254",
+    "track_name": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "genre": "Jazz",
+    "total_plays": 22,
+    "total_minutes": 30.09,
+    "avg_completion_pct": 58.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1644423852",
+    "track_name": "Indonesia",
+    "artist": "Kids Learning Tube",
+    "genre": "Children's Music",
+    "total_plays": 22,
+    "total_minutes": 75.44,
+    "avg_completion_pct": 62.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1417397139",
+    "track_name": "When We're Human (feat. Terence Blanchard)",
+    "artist": "Michael-Leon Wooley, Bruno Campos & Anika Noni Rose",
+    "genre": "Musicals",
+    "total_plays": 22,
+    "total_minutes": 30.74,
+    "avg_completion_pct": 59.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440761318",
+    "track_name": "You (feat. Lil Wayne)",
+    "artist": "Lloyd featuring Lil Wayne",
+    "genre": "R&B/Soul",
+    "total_plays": 22,
+    "total_minutes": 70.2,
+    "avg_completion_pct": 70.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1170699706",
+    "track_name": "Don't Let Me Down (feat. Daya)",
+    "artist": "The Chainsmokers",
+    "genre": "Dance",
+    "total_plays": 22,
+    "total_minutes": 42.84,
+    "avg_completion_pct": 56.1
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1358462132",
+    "track_name": "Jingle Bell Rock",
+    "artist": "Bobby Helms",
+    "genre": "Holiday",
+    "total_plays": 22,
+    "total_minutes": 24.7,
+    "avg_completion_pct": 51.4
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_48711436",
+    "track_name": "Indonesia (Sumatra)",
+    "artist": "Medan",
+    "genre": "Worldwide",
+    "total_plays": 22,
+    "total_minutes": 31.48,
+    "avg_completion_pct": 51.7
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1606064876",
+    "track_name": "What You Won't Do for Love",
+    "artist": "Bobby Caldwell",
+    "genre": "R&B/Soul",
+    "total_plays": 22,
+    "total_minutes": 57.67,
+    "avg_completion_pct": 54.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1294890449",
+    "track_name": "Losing",
+    "artist": "H.E.R.",
+    "genre": "R&B/Soul",
+    "total_plays": 21,
+    "total_minutes": 47.46,
+    "avg_completion_pct": 60.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1468166328",
+    "track_name": "Panini",
+    "artist": "Lil Nas X",
+    "genre": "Pop",
+    "total_plays": 21,
+    "total_minutes": 27.11,
+    "avg_completion_pct": 67.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1624932774",
+    "track_name": "POP!",
+    "artist": "NAYEON",
+    "genre": "Dance",
+    "total_plays": 21,
+    "total_minutes": 36.42,
+    "avg_completion_pct": 62.0
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1806176608",
+    "track_name": "You'll Be In My Heart",
+    "artist": "NIKI",
+    "genre": "Alternative",
+    "total_plays": 21,
+    "total_minutes": 56.05,
+    "avg_completion_pct": 66.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440813309",
+    "track_name": "Spotless Mind",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 21,
+    "total_minutes": 51.24,
+    "avg_completion_pct": 54.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_386153729",
+    "track_name": "My Boo",
+    "artist": "Alicia Keys & USHER",
+    "genre": "R&B/Soul",
+    "total_plays": 21,
+    "total_minutes": 54.46,
+    "avg_completion_pct": 69.7
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1591338975",
+    "track_name": "I Love You So",
+    "artist": "The Walters",
+    "genre": "Alternative",
+    "total_plays": 20,
+    "total_minutes": 28.97,
+    "avg_completion_pct": 54.2
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_712721787",
+    "track_name": "Stacy's Mom",
+    "artist": "Fountains Of Wayne",
+    "genre": "Pop",
+    "total_plays": 20,
+    "total_minutes": 40.48,
+    "avg_completion_pct": 61.5
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1441652008",
+    "track_name": "Indonesia",
+    "artist": "Masajes Spa Maestro",
+    "genre": "New Age",
+    "total_plays": 20,
+    "total_minutes": 56.49,
+    "avg_completion_pct": 55.3
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1670756419",
+    "track_name": "Favorite Song",
+    "artist": "Toosii",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 20,
+    "total_minutes": 32.47,
+    "avg_completion_pct": 46.8
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440813298",
+    "track_name": "W.A.Y.S.",
+    "artist": "Jhené Aiko",
+    "genre": "R&B/Soul",
+    "total_plays": 20,
+    "total_minutes": 45.59,
+    "avg_completion_pct": 57.4
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1471704175",
+    "track_name": "Counting Stars",
+    "artist": "OneRepublic",
+    "genre": "Pop",
+    "total_plays": 19,
+    "total_minutes": 45.75,
+    "avg_completion_pct": 56.2
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440881708",
+    "track_name": "LOVE. (feat. Zacari)",
+    "artist": "Kendrick Lamar",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 19,
+    "total_minutes": 39.03,
+    "avg_completion_pct": 57.6
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1050204631",
+    "track_name": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "total_plays": 19,
+    "total_minutes": 53.51,
+    "avg_completion_pct": 60.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_80429794",
+    "track_name": "Temperature",
+    "artist": "Sean Paul",
+    "genre": "Pop",
+    "total_plays": 19,
+    "total_minutes": 42.57,
+    "avg_completion_pct": 62.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440787254",
+    "track_name": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "genre": "Jazz",
+    "total_plays": 18,
+    "total_minutes": 22.96,
+    "avg_completion_pct": 54.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440819170",
+    "track_name": "Dark Horse (feat. Juicy J)",
+    "artist": "Katy Perry",
+    "genre": "Pop",
+    "total_plays": 18,
+    "total_minutes": 36.3,
+    "avg_completion_pct": 55.9
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1176303886",
+    "track_name": "After Dark",
+    "artist": "Mr.Kitty",
+    "genre": "Alternative",
+    "total_plays": 18,
+    "total_minutes": 47.35,
+    "avg_completion_pct": 60.8
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1440754846",
+    "track_name": "Animal",
+    "artist": "Neon Trees",
+    "genre": "Alternative",
+    "total_plays": 17,
+    "total_minutes": 39.49,
+    "avg_completion_pct": 65.6
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1440856669",
+    "track_name": "Indonesia",
+    "artist": "Amos Lee",
+    "genre": "Pop",
+    "total_plays": 17,
+    "total_minutes": 32.89,
+    "avg_completion_pct": 56.0
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1622045962",
+    "track_name": "Ojitos Lindos",
+    "artist": "Bad Bunny & Bomba Estéreo",
+    "genre": "Latin",
+    "total_plays": 17,
+    "total_minutes": 40.4,
+    "avg_completion_pct": 55.3
+  },
+  {
+    "platform": "spotify",
+    "track_id": "trk_1122782283",
+    "track_name": "Yellow",
+    "artist": "Coldplay",
+    "genre": "Alternative",
+    "total_plays": 17,
+    "total_minutes": 44.26,
+    "avg_completion_pct": 58.1
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_1437697155",
+    "track_name": "Ain't No Rest for the Wicked",
+    "artist": "Cage the Elephant",
+    "genre": "Alternative",
+    "total_plays": 15,
+    "total_minutes": 21.01,
+    "avg_completion_pct": 47.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_252606592",
+    "track_name": "Cry Me a River",
+    "artist": "Justin Timberlake",
+    "genre": "Pop",
+    "total_plays": 14,
+    "total_minutes": 41.61,
+    "avg_completion_pct": 61.9
+  },
+  {
+    "platform": "apple_music",
+    "track_id": "trk_214403648",
+    "track_name": "Rockstar",
+    "artist": "Nickelback",
+    "genre": "Rock",
+    "total_plays": 13,
+    "total_minutes": 30.14,
+    "avg_completion_pct": 54.5
+  }
+]

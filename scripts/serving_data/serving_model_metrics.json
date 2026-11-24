@@ -1,0 +1,11 @@
+[
+  {
+    "model_name": "Random Forest Classifier",
+    "naive_baseline_accuracy": 0.6957,
+    "rf_accuracy": 0.6957,
+    "rf_auc": 0.4754,
+    "rf_f1_score": 0.5708,
+    "total_events_analyzed": 8473,
+    "total_unique_track_platform": 298
+  }
+]

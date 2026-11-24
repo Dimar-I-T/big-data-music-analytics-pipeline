@@ -1,6 +1,6 @@
 # Big Data Music Analytics Pipeline
 
-Solusi *data pipeline* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform, seperti Spotify dan Apple Music menggunakan arsitektur Big Data 5 *layer*[cite: 24, 43, 47].
+Solusi *data pipeline* *end-to-end* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform (Spotify dan Apple Music) menggunakan arsitektur Big Data 5 *layer*.
 
 ## Helicopter View Diagram
 ```mermaid
@@ -15,13 +15,11 @@ flowchart LR
 
     subgraph SRC["SUMBER DATA (3V)"]
         direction TB
-        S1["Spotify Web API<br/>(Chart & Fitur Audio)"]:::source
-        S2["Apple Music / iTunes API<br/>(Top Songs & Metadata)"]:::source
-        S3["Dataset Publik<br/>(Histori Streaming Besar)"]:::source
+        S1["iTunes / Apple Music API<br/>(Metadata & Katalog Lagu)"]:::source
+        S2["Simulasi Multi-Platform<br/>(Spotify & Apple Music)"]:::source
         PROD["Python Log Producer<br/>(Standardisasi Skema JSON)"]:::source
         S1 --> PROD
         S2 --> PROD
-        S3 --> PROD
     end
 
     subgraph L1["1. LAYER INGESTION"]
@@ -31,25 +29,24 @@ flowchart LR
 
     subgraph L2["2. LAYER STORAGE (HDFS)"]
         direction TB
-        HDFS_RAW["HDFS Raw Zone<br/>/data/raw/ (Format JSON)<br/>Arsip & Audit Data"]:::layer2
-        HDFS_CLEAN["HDFS Clean Zone<br/>/data/clean/ (Format Parquet)<br/>Partisi: platform / date"]:::layer2
+        HDFS_RAW["HDFS Raw Zone<br/>/data/raw/music_logs/ (JSON)<br/>Arsip Mentah & Audit"]:::layer2
+        HDFS_CLEAN["HDFS Clean Zone<br/>/data/clean/music_stats/ (Parquet)<br/>Partisi: platform / date"]:::layer2
     end
 
     subgraph L3["3. LAYER PROCESSING & ANALITIK"]
         direction TB
-        SP_STR["Spark Structured Streaming<br/>- ETL & Validasi Skema<br/>- Agregasi Live (Window 1 Menit)"]:::layer3
-        SP_SQL["Spark SQL (Batch)<br/>- Deskriptif: Top Songs & Tren<br/>- Diagnostik: Korelasi Audio vs Skip"]:::layer3
-        SP_ML["Spark MLlib & Rule Engine<br/>- Prediktif: Viral Score (RF) & ALS<br/>- Preskriptif: Aturan Promosi/Playlist"]:::layer3
+        SP_STR["Spark Structured Streaming<br/>- Schema Enforcement & ETL<br/>- Deduplikasi & Feature Engineering"]:::layer3
+        SP_BATCH["Spark SQL & MLlib (Batch)<br/>- Deskriptif: Top Songs & Genre<br/>- Diagnostik: Korelasi Audio vs Skip<br/>- Prediktif: Random Forest Classifier<br/>- Preskriptif: Rule-Based Decision Engine"]:::layer3
     end
 
     subgraph L4["4. LAYER SERVING"]
         direction TB
-        SRV["Apache Hive / MongoDB<br/>- Tabel Live Play Count<br/>- Tabel Top Chart & Korelasi<br/>- Tabel Prediksi & Rekomendasi Aksi"]:::layer4
+        SRV["HDFS Serving Zone + FastAPI<br/>/data/serving/ & REST API (:8000)<br/>Tabel Agregasi, Skor RF, & Aksi"]:::layer4
     end
 
     subgraph L5["5. LAYER VISUALISASI"]
         direction TB
-        UI["Dashboard Streamlit<br/>- Grafik Batang: Top 10 Lagu<br/>- Grafik Garis: Tren Lintas Platform<br/>- Scatter Plot: Analisis Fitur Audio<br/>- Tabel Keputusan Preskriptif"]:::layer5
+        UI["Dashboard Streamlit (:8501)<br/>- Grafik Batang: Top 10 Lagu & Genre<br/>- Scatter Plot: Analisis Fitur Audio<br/>- Tabel Prediksi & Rekomendasi Aksi"]:::layer5
     end
 
     %% Aliran Data & Format Antar Layer
@@ -57,44 +54,49 @@ flowchart LR
     KAFKA -->|"Raw Log<br/>(JSON)"| HDFS_RAW
     KAFKA -->|"Stream<br/>Micro-Batch"| SP_STR
     SP_STR -->|"Write Bersih<br/>(Parquet)"| HDFS_CLEAN
-    SP_STR -->|"Update<br/>Real-Time"| SRV
-    HDFS_CLEAN -->|"Scan Kolom<br/>(Parquet)"| SP_SQL
-    HDFS_CLEAN -->|"Training &<br/>Scoring"| SP_ML
-    SP_SQL -->|"Hasil Agregasi<br/>(Tabel)"| SRV
-    SP_ML -->|"Output Model<br/>& Aturan"| SRV
-    SRV -->|"Baca Ringan<br/>(Low Latency)"| UI
+    HDFS_CLEAN -->|"Scan Kolom<br/>(Parquet)"| SP_BATCH
+    SP_BATCH -->|"Tabel Hasil<br/>(Parquet & JSON)"| SRV
+    SRV -->|"REST API<br/>(Low Latency)"| UI
 ```
 
-## Arsitektur Sistem
-1. **Data Source:** Skrip Python yang menarik katalog lagu dari API publik dan menyimulasikan aliran *event* pemutaran musik dalam format JSON terstandardisasi.
-2. **Layer 1 - Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*[cite: 38].
-3. **Layer 2 - Storage:** **HDFS** yang dibagi menjadi dua zona:
-   * `/data/raw/music_logs/` (Format JSON untuk arsip mentah/audit).
-   * `/data/clean/music_stats/` (Format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk optimasi pembacaan)[cite: 28].
-4. **Layer 3 - Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data (ETL) serta analitik deskriptif, diagnostik, prediktif, dan preskriptif[cite: 15, 20].
-5. **Layer 4 & 5 - Serving & Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**[cite: 20, 22].
+## Arsitektur Sistem (5 Layer)
+1. **Data Source (`producer.py`):** Menarik katalog lagu asli dari API publik dan menyimulasikan aliran *event* pemutaran musik lintas platform (`spotify` dan `apple_music`) dalam format JSON terstandardisasi.
+2. **Layer 1 - Ingestion (Apache Kafka):** Menggunakan *topic* `music-play-logs` dengan **3 partisi** untuk menampung aliran data *real-time*, mendukung pemrosesan paralel, dan menyediakan fitur *log replay*.
+3. **Layer 2 - Storage (HDFS):** Terbagi menjadi dua zona penyimpanan:
+   * `/data/raw/music_logs/` — Menyimpan log mentah dalam format **JSON** sebagai arsip permanen (*source of truth*).
+   * `/data/clean/music_stats/` — Menyimpan data bersih dalam format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk mempercepat pembacaan query.
+4. **Layer 3 - Processing & Analitik (Apache Spark):**
+   * *Streaming ETL (`ingest_to_hdfs.py`):* Pembersihan data, validasi skema, penghapusan duplikat, dan perhitungan fitur retensi (`completion_rate` & `is_skipped`).
+   * *Batch Analytics (`analytics_batch.py`):* Menjalankan 4 tingkat analitik sekaligus — **Deskriptif** (peringkat lagu & komposisi genre), **Diagnostik** (korelasi fitur audio terhadap tingkat penyelesaian lagu), **Prediktif** (*Random Forest Classifier* vs *Naive Baseline*), dan **Preskriptif** (*Rule-Based Decision Engine* untuk rekomendasi promosi/playlist).
+5. **Layer 4 & 5 - Serving & Visualisasi (FastAPI & Streamlit):**
+   * *Serving Layer (`serving_api.py`):* REST API ringan di port `8000` yang menyajikan tabel hasil akhir dari `/data/serving/` tanpa membebani dashboard dengan komputasi berat.
+   * *Visualisasi (`dashboard.py`):* Dashboard interaktif di port `8501` untuk memantau tren pemutaran, analisis audio, akurasi model, dan tabel rekomendasi aksi.
 
 ## Struktur Folder
 ```text
 bigdata-music-pipeline/
-├── docker-compose.yml          
-├── requirements.txt            
-├── .gitignore                  
-├── README.md                   
+├── docker-compose.yml              # Infrastruktur kontainer Kafka, HDFS, dan Spark
+├── requirements.txt                # Dependensi Python lokal (Producer, API, Dashboard)
+├── .gitignore                      # Daftar file/folder yang diabaikan Git
+├── README.md                       # Dokumentasi panduan instalasi & penggunaan
 ├── scripts/
-│   ├── producer.py             
-│   └── ingest_to_hdfs.py       
-└── ivy_cache/                  
+│   ├── producer.py                 # Data Source -> Layer 1 (Kafka)
+│   ├── ingest_to_hdfs.py           # Layer 1 (Kafka) -> Layer 2 (HDFS Raw & Clean)
+│   ├── analytics_batch.py          # Layer 3: Analitik 4 Tingkat (Spark SQL & MLlib)
+│   ├── serving_api.py              # Layer 4: REST API penyaji data (FastAPI)
+│   ├── dashboard.py                # Layer 5: Visualisasi Dashboard (Streamlit)
+│   └── serving_data/               # Output tabel JSON ringan untuk Serving API
+└── ivy_cache/                      # Cache paket JAR Spark (otomatis dibuat)
 ```
 
 ---
 
-## Panduan 1: Untuk yang Belum Pernah Menjalankan
+## Panduan 1: Untuk yang Belum Pernah Menjalankan (First-Time Setup)
 
-Ikuti langkah ini dari awal jika kamu baru melakukan `git clone` di komputer/VM baru.
+Ikuti langkah ini secara berurutan jika kamu baru melakukan `git clone` di komputer/VM baru.
 
-### 1. Siapkan Environment Python dan Izin Folder Cache
-Masuk ke direktori proyek, buat *virtual environment*, instal dependensi, dan berikan izin tulis pada folder `ivy_cache` agar kontainer Spark tidak mengalami error *permission*:
+### 1. Siapkan Environment Python & Izin Folder
+Masuk ke direktori proyek, buat *virtual environment*, instal dependensi Python, dan berikan izin tulis pada folder `ivy_cache` serta `scripts/serving_data` agar kontainer Spark tidak mengalami error *permission*:
 ```bash
 cd ~/bigdata-music-pipeline
 
@@ -105,16 +107,20 @@ source .venv/bin/activate
 # Instal library Python
 pip install -r requirements.txt
 
-# Siapkan folder cache JAR untuk Spark
-mkdir -p ivy_cache/cache
-sudo chmod -R 777 ivy_cache
+# Siapkan folder cache JAR dan folder output Serving dengan izin penuh
+mkdir -p ivy_cache/cache scripts/serving_data
+sudo chmod -R 777 ivy_cache scripts/serving_data
 ```
 
-### 2. Jalankan Infrastruktur Docker (Kafka, HDFS, Spark)
+### 2. Jalankan Infrastruktur Docker & Instal Library ML di Spark
+Nyalakan seluruh kontainer (`kafka`, `namenode`, `datanode`, `spark`), lalu pasang `numpy` dan `pandas` di dalam kontainer Spark untuk kebutuhan *Spark MLlib*:
 ```bash
 sudo docker compose up -d
+
+# Instal numpy & pandas ke dalam kontainer spark
+sudo docker exec -u 0 -it spark pip install --no-cache-dir numpy pandas
 ```
-*Tunggu sekitar 15–20 detik hingga seluruh kontainer (`kafka`, `namenode`, `datanode`, `spark`) berstatus `Up` (cek dengan `sudo docker ps`).*
+*Pastikan seluruh kontainer berstatus `Up` menggunakan perintah `sudo docker ps`.*
 
 ### 3. Buat Topic Kafka (Cukup Dilakukan 1 Kali)
 Buat *topic* `music-play-logs` dengan 3 partisi:
@@ -127,43 +133,15 @@ sudo docker exec -it kafka /opt/kafka/bin/kafka-topics.sh \
   --replication-factor 1
 ```
 
-### 4. Jalankan Aliran Data (Terminal 1 - Producer)
-Pastikan `.venv` aktif, lalu jalankan skrip pengirim data:
-```bash
-source .venv/bin/activate
-python3 scripts/producer.py
-```
-
-### 5. Jalankan Ingestion Spark ke HDFS (Terminal 2 - Consumer)
-Buka tab terminal baru, lalu jalankan *job* Spark Streaming (pada eksekusi pertama, Spark akan mengunduh paket JAR Kafka ke `ivy_cache` selama ~30–60 detik):
-```bash
-sudo docker exec -it spark /opt/spark/bin/spark-submit \
-  --master local[*] \
-  --conf spark.jars.ivy=/tmp/.ivy2 \
-  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
-  /opt/spark-scripts/ingest_to_hdfs.py
-```
-Biarkan berjalan hingga muncul pesan `Batch 0 selesai disimpan...` dan seterusnya (minimal 1.500–2.000 *event*), lalu tekan `Ctrl + C` di kedua terminal untuk menghentikan aliran sementara.
-
----
-
-## Panduan 2: Untuk yang Sudah Pernah Menjalankan
-
-Jika kamu sudah pernah melakukan setup di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka atau menginstal ulang library**. Data lama di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*[cite: 26, 28].
-
-### 1. Nyalakan Kembali Kontainer Docker
-```bash
-cd ~/bigdata-music-pipeline
-sudo docker compose up -d
-```
-
-### 2. Jalankan Ulang Pipeline (Saat Ingin Menambah Data / Live Demo)
-* **Terminal 1 (Producer):**
+### 4. Jalankan Aliran Data ke HDFS (Layer 1 & Layer 2)
+Buka **dua tab terminal** secara bersamaan:
+* **Terminal 1 (Menjalankan Kafka Producer):**
   ```bash
+  cd ~/bigdata-music-pipeline
   source .venv/bin/activate
   python3 scripts/producer.py
   ```
-* **Terminal 2 (Spark Ingestion):**
+* **Terminal 2 (Menjalankan Spark Streaming Ingestion):**
   ```bash
   sudo docker exec -it spark /opt/spark/bin/spark-submit \
     --master local[*] \
@@ -171,19 +149,81 @@ sudo docker compose up -d
     --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
     /opt/spark-scripts/ingest_to_hdfs.py
   ```
-  *Catatan: Spark akan langsung berjalan tanpa mengunduh ulang JAR dan otomatis melanjutkan pembacaan dari checkpoint terakhir tanpa duplikasi data[cite: 28].*
+Biarkan kedua proses berjalan hingga muncul beberapa pesan `Batch X selesai disimpan ke HDFS Raw (JSON) & Clean (Parquet).` (sekitar 1.500–2.000 *event*), lalu tekan **`Ctrl + C`** di kedua terminal untuk menghentikannya sementara.
+
+### 5. Jalankan Pemrosesan Analitik 4 Tingkat (Layer 3)
+Jalankan *batch job* Spark untuk menghitung analitik deskriptif, diagnostik, prediktif (*Random Forest*), dan preskriptif:
+```bash
+sudo docker exec -it spark /opt/spark/bin/spark-submit \
+  --master local[*] \
+  /opt/spark-scripts/analytics_batch.py
+```
+*Pastikan muncul konfirmasi `[SERVING] Tabel '...' tersimpan` untuk keenam tabel hasil.*
+
+### 6. Jalankan Serving API & Dashboard Visualisasi (Layer 4 & Layer 5)
+Buka **dua tab terminal** untuk menjalankan lapisan penyaji dan antarmuka visual:
+* **Terminal 1 (Menjalankan FastAPI Serving Layer):**
+  ```bash
+  cd ~/bigdata-music-pipeline
+  source .venv/bin/activate
+  uvicorn scripts.serving_api:app --host 0.0.0.0 --port 8000
+  ```
+* **Terminal 2 (Menjalankan Dashboard Streamlit):**
+  ```bash
+  cd ~/bigdata-music-pipeline
+  source .venv/bin/activate
+  streamlit run scripts/dashboard.py
+  ```
+Buka browser dan akses dashboard di **`http://localhost:8501`** (serta dokumentasi API di **`http://localhost:8000/docs`**).
 
 ---
 
-## Verifikasi & Reset Data (Opsional)
+## Panduan 2: Untuk yang Sudah Pernah Menjalankan (Melanjutkan / Live Demo)
 
-### Cek File Hasil di HDFS
-* **Via Terminal:**
+Jika kamu sudah pernah menjalankan langkah di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka, mengunduh ulang JAR, atau menginstal ulang library**. Data di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*.
+
+### 1. Nyalakan Kembali Kontainer Docker
+```bash
+cd ~/bigdata-music-pipeline
+sudo docker compose up -d
+```
+
+### 2. (Opsional) Tambah Data Baru / Simulasi Live Stream
+Jika ingin menambah data baru atau menunjukkan aliran *real-time* saat presentasi:
+* **Terminal 1:** `source .venv/bin/activate && python3 scripts/producer.py`
+* **Terminal 2:**
   ```bash
-  sudo docker exec -it namenode hdfs dfs -count -h /data/raw/music_logs /data/clean/music_stats
-  sudo docker exec -it namenode hdfs dfs -ls -R /data/clean/music_stats
+  sudo docker exec -it spark /opt/spark/bin/spark-submit \
+    --master local[*] \
+    --conf spark.jars.ivy=/tmp/.ivy2 \
+    --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
+    /opt/spark-scripts/ingest_to_hdfs.py
   ```
-* **Via Browser:** Buka `http://localhost:9870` $\rightarrow$ **Utilities** $\rightarrow$ **Browse the file system**.
+* Hentikan dengan `Ctrl + C` setelah selesai, lalu perbarui hasil analitik dengan menjalankan ulang Layer 3:
+  ```bash
+  sudo docker exec -it spark /opt/spark/bin/spark-submit \
+    --master local[*] \
+    /opt/spark-scripts/analytics_batch.py
+  ```
+
+### 3. Nyalakan Serving API & Dashboard
+* **Terminal 1:** `source .venv/bin/activate && uvicorn scripts.serving_api:app --host 0.0.0.0 --port 8000`
+* **Terminal 2:** `source .venv/bin/activate && streamlit run scripts/dashboard.py`
+
+---
+
+## Verifikasi & Manajemen Kontainer
+
+### URL Akses Layanan
+* **Dashboard Streamlit (Layer 5):** `http://localhost:8501`
+* **Serving REST API Docs (Layer 4):** `http://localhost:8000/docs`
+* **HDFS NameNode Web UI (Layer 2):** `http://localhost:9870`
+
+### Cek Direktori & Ukuran File di HDFS
+```bash
+sudo docker exec -it namenode hdfs dfs -count -h /data/raw/music_logs /data/clean/music_stats /data/serving
+sudo docker exec -it namenode hdfs dfs -ls -R /data/clean/music_stats
+```
 
 ### Menghentikan Sementara vs Reset Total
 * **Mematikan kontainer tanpa menghapus data (Hemat RAM):**
@@ -194,4 +234,4 @@ sudo docker compose up -d
   ```bash
   sudo docker compose down -v
   ```
-  *(Jika menjalankan perintah reset ini, ikuti kembali **Panduan 1** mulai dari langkah ke-2).*
+  *(Jika menjalankan reset total, ikuti kembali **Panduan 1** mulai dari langkah ke-2).*

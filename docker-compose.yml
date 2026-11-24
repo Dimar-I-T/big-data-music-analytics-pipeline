@@ -52,7 +52,9 @@ services:
       - music-net
 
   spark:
-    image: apache/spark:3.5.1
+    build:
+      context: .
+      dockerfile: Dockerfile.spark
     container_name: spark
     depends_on:
       - kafka

@@ -1,0 +1,326 @@
+[
+  {
+    "platform": "apple_music",
+    "genre": "Alternative",
+    "total_plays": 1070,
+    "unique_tracks": 37
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Pop",
+    "total_plays": 785,
+    "unique_tracks": 28
+  },
+  {
+    "platform": "apple_music",
+    "genre": "R&B/Soul",
+    "total_plays": 737,
+    "unique_tracks": 24
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 484,
+    "unique_tracks": 17
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Jazz",
+    "total_plays": 158,
+    "unique_tracks": 6
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Rock",
+    "total_plays": 134,
+    "unique_tracks": 5
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Country",
+    "total_plays": 110,
+    "unique_tracks": 4
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Holiday",
+    "total_plays": 76,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Dance",
+    "total_plays": 73,
+    "unique_tracks": 3
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Singer/Songwriter",
+    "total_plays": 67,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Metal",
+    "total_plays": 55,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Latin",
+    "total_plays": 54,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Worldwide",
+    "total_plays": 54,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "New Age",
+    "total_plays": 49,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Indie Rock",
+    "total_plays": 36,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Neo-Soul",
+    "total_plays": 31,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Folk",
+    "total_plays": 30,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Instrumental",
+    "total_plays": 29,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Ambient",
+    "total_plays": 29,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "K-Pop",
+    "total_plays": 29,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "House",
+    "total_plays": 27,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Electronic",
+    "total_plays": 27,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Musicals",
+    "total_plays": 26,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Vocal",
+    "total_plays": 25,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Children's Music",
+    "total_plays": 25,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Vocal Pop",
+    "total_plays": 24,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "apple_music",
+    "genre": "Afro-Beat",
+    "total_plays": 23,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Alternative",
+    "total_plays": 1060,
+    "unique_tracks": 37
+  },
+  {
+    "platform": "spotify",
+    "genre": "Pop",
+    "total_plays": 795,
+    "unique_tracks": 28
+  },
+  {
+    "platform": "spotify",
+    "genre": "R&B/Soul",
+    "total_plays": 686,
+    "unique_tracks": 24
+  },
+  {
+    "platform": "spotify",
+    "genre": "Hip-Hop/Rap",
+    "total_plays": 486,
+    "unique_tracks": 17
+  },
+  {
+    "platform": "spotify",
+    "genre": "Jazz",
+    "total_plays": 166,
+    "unique_tracks": 6
+  },
+  {
+    "platform": "spotify",
+    "genre": "Rock",
+    "total_plays": 145,
+    "unique_tracks": 5
+  },
+  {
+    "platform": "spotify",
+    "genre": "Country",
+    "total_plays": 107,
+    "unique_tracks": 4
+  },
+  {
+    "platform": "spotify",
+    "genre": "Dance",
+    "total_plays": 77,
+    "unique_tracks": 3
+  },
+  {
+    "platform": "spotify",
+    "genre": "New Age",
+    "total_plays": 75,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Singer/Songwriter",
+    "total_plays": 67,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Metal",
+    "total_plays": 59,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Holiday",
+    "total_plays": 50,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Latin",
+    "total_plays": 45,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Worldwide",
+    "total_plays": 44,
+    "unique_tracks": 2
+  },
+  {
+    "platform": "spotify",
+    "genre": "Ambient",
+    "total_plays": 34,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "House",
+    "total_plays": 33,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Vocal",
+    "total_plays": 30,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Afro-Beat",
+    "total_plays": 29,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Folk",
+    "total_plays": 27,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "K-Pop",
+    "total_plays": 26,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Indie Rock",
+    "total_plays": 26,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Neo-Soul",
+    "total_plays": 25,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Electronic",
+    "total_plays": 24,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Instrumental",
+    "total_plays": 23,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Vocal Pop",
+    "total_plays": 23,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Musicals",
+    "total_plays": 22,
+    "unique_tracks": 1
+  },
+  {
+    "platform": "spotify",
+    "genre": "Children's Music",
+    "total_plays": 22,
+    "unique_tracks": 1
+  }
+]
