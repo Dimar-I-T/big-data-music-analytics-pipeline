@@ -1,0 +1,18 @@
+[
+  {
+    "corr_with_completion": 0.0132,
+    "feature": "Energy"
+  },
+  {
+    "corr_with_completion": 0.0023,
+    "feature": "Danceability"
+  },
+  {
+    "corr_with_completion": -0.0287,
+    "feature": "Tempo"
+  },
+  {
+    "corr_with_completion": -0.0157,
+    "feature": "Durasi Lagu"
+  }
+]

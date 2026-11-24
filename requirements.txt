@@ -1,2 +1,8 @@
 requests
 kafka-python-ng
+pandas
+fastapi
+uvicorn
+streamlit
+plotly
+numpy
