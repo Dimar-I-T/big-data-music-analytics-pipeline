@@ -1,6 +1,6 @@
 # Big Data Music Analytics Pipeline
 
-Solusi *data pipeline* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform, seperti Spotify dan Apple Music menggunakan arsitektur Big Data 5 *layer*[cite: 24, 43, 47].
+Solusi *data pipeline* untuk mengumpulkan, membersihkan, menganalisis, dan memvisualisasikan statistik pemutaran lagu lintas platform, seperti Spotify dan Apple Music menggunakan arsitektur Big Data 5 *layer*.
 
 ## Helicopter View Diagram
 ```mermaid
@@ -67,12 +67,12 @@ flowchart LR
 
 ## Arsitektur Sistem
 1. **Data Source:** Skrip Python yang menarik katalog lagu dari API publik dan menyimulasikan aliran *event* pemutaran musik dalam format JSON terstandardisasi.
-2. **Layer 1 - Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*[cite: 38].
+2. **Layer 1 - Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*.
 3. **Layer 2 - Storage:** **HDFS** yang dibagi menjadi dua zona:
    * `/data/raw/music_logs/` (Format JSON untuk arsip mentah/audit).
-   * `/data/clean/music_stats/` (Format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk optimasi pembacaan)[cite: 28].
-4. **Layer 3 - Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data (ETL) serta analitik deskriptif, diagnostik, prediktif, dan preskriptif[cite: 15, 20].
-5. **Layer 4 & 5 - Serving & Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**[cite: 20, 22].
+   * `/data/clean/music_stats/` (Format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk optimasi pembacaan).
+4. **Layer 3 - Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data (ETL) serta analitik deskriptif, diagnostik, prediktif, dan preskriptif.
+5. **Layer 4 & 5 - Serving & Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**.
 
 ## Struktur Folder
 ```text
@@ -149,7 +149,7 @@ Biarkan berjalan hingga muncul pesan `Batch 0 selesai disimpan...` dan seterusny
 
 ## Panduan 2: Untuk yang Sudah Pernah Menjalankan
 
-Jika kamu sudah pernah melakukan setup di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka atau menginstal ulang library**. Data lama di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*[cite: 26, 28].
+Jika kamu sudah pernah melakukan setup di atas (misalnya setelah mematikan laptop atau me-restart VM), **tidak perlu membuat ulang topic Kafka atau menginstal ulang library**. Data lama di HDFS dan *offset checkpoint* sudah tersimpan aman di dalam *Docker Volume*.
 
 ### 1. Nyalakan Kembali Kontainer Docker
 ```bash
@@ -171,7 +171,7 @@ sudo docker compose up -d
     --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
     /opt/spark-scripts/ingest_to_hdfs.py
   ```
-  *Catatan: Spark akan langsung berjalan tanpa mengunduh ulang JAR dan otomatis melanjutkan pembacaan dari checkpoint terakhir tanpa duplikasi data[cite: 28].*
+  *Catatan: Spark akan langsung berjalan tanpa mengunduh ulang JAR dan otomatis melanjutkan pembacaan dari checkpoint terakhir tanpa duplikasi data.*
 
 ---
 
