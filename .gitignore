@@ -1,0 +1,7 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+ivy_cache/
+.DS_Store
+*.log
