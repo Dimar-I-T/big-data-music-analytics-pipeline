@@ -61,28 +61,28 @@ flowchart LR
 
 ## Arsitektur Sistem
 1. **Data Source:** Skrip Python yang menarik katalog lagu dari API publik dan menyimulasikan aliran *event* pemutaran musik dalam format JSON terstandardisasi.
-2. **Layer 1 - Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*.
-3. **Layer 2 - Storage:** **HDFS** yang dibagi menjadi dua zona:
+2. **Layer 1 | Ingestion:** **Apache Kafka** (`topic: music-play-logs`, 3 partisi) untuk menampung aliran data *real-time* dan mendukung fitur *log replay*.
+3. **Layer 2 | Storage:** **HDFS** yang dibagi menjadi dua zona:
    * `/data/raw/music_logs/` (Format JSON untuk arsip mentah/audit).
    * `/data/clean/music_stats/` (Format kolom **Parquet** terpartisi berdasarkan `platform` dan `date` untuk optimasi pembacaan).
-4. **Layer 3 - Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data (ETL) serta analitik deskriptif, diagnostik, prediktif, dan preskriptif.
-5. **Layer 4 & 5 - Serving & Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**.
+4. **Layer 3 | Processing & Analitik:** **Apache Spark** (*Structured Streaming*, *Spark SQL*, dan *MLlib*) untuk pembersihan data serta analitik deskriptif, diagnostik, prediktif, dan preskriptif.
+5. **Layer 4 dan 5 - Serving dan Visualisasi:** Penyajian tabel hasil agregasi yang ringan ke dashboard interaktif **Streamlit**.
 
 ## Struktur Folder
 ```text
 bigdata-music-pipeline/
 ├── docker-compose.yml              # Infrastruktur kontainer Kafka, HDFS, dan Spark
-├── requirements.txt                # Dependensi Python lokal (Producer, API, Dashboard)
-├── .gitignore                      # Daftar file/folder yang diabaikan Git
-├── README.md                       # Dokumentasi panduan instalasi & penggunaan
+├── requirements.txt               
+├── .gitignore                      
+├── README.md                       
 ├── scripts/
-│   ├── producer.py                 # Data Source -> Layer 1 (Kafka)
-│   ├── ingest_to_hdfs.py           # Layer 1 (Kafka) -> Layer 2 (HDFS Raw & Clean)
-│   ├── analytics_batch.py          # Layer 3: Analitik 4 Tingkat (Spark SQL & MLlib)
-│   ├── serving_api.py              # Layer 4: REST API penyaji data (FastAPI)
-│   ├── dashboard.py                # Layer 5: Visualisasi Dashboard (Streamlit)
+│   ├── producer.py                 # Data Source -> Layer 1 
+│   ├── ingest_to_hdfs.py           # Layer 1 -> Layer 2 
+│   ├── analytics_batch.py          # Layer 3: Analitik 4 Tingkat
+│   ├── serving_api.py              # Layer 4: REST API penyaji data 
+│   ├── dashboard.py                # Layer 5: Visualisasi Dashboard 
 │   └── serving_data/               # Output tabel JSON ringan untuk Serving API
-└── ivy_cache/                      # Cache paket JAR Spark (otomatis dibuat)
+└── ivy_cache/                      
 ```
 
 ---
@@ -129,7 +129,7 @@ sudo docker exec -it kafka /opt/kafka/bin/kafka-topics.sh \
   --replication-factor 1
 ```
 
-### 4. Jalankan Aliran Data ke HDFS (Layer 1 & Layer 2)
+### 4. Jalankan Aliran Data ke HDFS (Layer 1 dan Layer 2)
 Buka **dua tab terminal** secara bersamaan:
 * **Terminal 1 (Menjalankan Kafka Producer):**
   ```bash
